@@ -46,51 +46,94 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body {
+
+h1 {
+	text-align: center;
+	font-size: 70px;
+ 	padding: 40px 180px;
+}
+body{
+	line-height: 1.5 ;
+}
+hr {
+	width: 500px;
+	border-style: dashed;
+	margin: 35px auto;
+	border-color: gray;
+}
+h2{
+	font-size: 50px;
+	margin: 20px;
 	text-align: center;
 }
-h1 {
-    font-size: 60px;
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+	margin: 0 auto;
+	border: 20px solid aqua;
+	outline: 5px solid black;
+	box-shadow: 0 0 0 20px palevioletred;
 }
-h2 {
-    font-size: 40px;
+.marker-container{
+	text-align: center;
+	margin-top: 60px;
 }
-.sec1 {
-    text-align: center;
-    margin-top: 40px;
-    width: 600px;
-}
-.E1{
-	width: 180px;
-	height: 100px;
-	margin: 10px rgb(237,127,128);
-	border: 1px solid black;
-}
-.box21{
-	width: 180px;
-	height: 100px;
-	margin: 10px;
-	background-color: dimgrey;
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
 	display: inline-block;
-	box-sizing: border-box;
+	vertical-align: middle;
+	margin-right: 10px;
 }
-.box22{
-	width: 180px;
-	height: 100px;
-	margin: 10px;
-	background-color: dimgrey;
+.Content{
+	background-color: aquamarine;
+}
+.Padding{
+	background-color: aqua;
+}
+.Border{
+	background-color: black;
+}
+.Margin{
+	background-color: palevioletred;
+}
+.marker {
 	display: inline-block;
-	box-sizing: border-box;
+	margin-left: 20px;
 }
-.box23{
-	width: 180px;
-	height: 100px;
-	margin: 10px;
-	background-color: dimgrey;
-	display: inline-block;
-	box-sizing: border-box;
+p {
+	text-align: center;
+	font-size: 30px;
 }
-.border2{
+.container {
 	width: 600px;
 	border: 1px solid black;
+	margin: 25px auto;
+	font-size: 0;
+}
+.box2 {
+	width: 180px;
+	height: 100px;
+	margin: 10px;
+	background-color: grey;
+	display: inline-block;
+}
+.box3 {
+	width: 180px;
+	height: 100px;
+	margin: 10px;
+	background-color: grey;
+	border: 1px solid black;
+	display: inline-block;
+}
+.box4 {
+	width: 180px;
+	height: 100px;
+	margin: 10px;
+	background-color: grey;
+	border: 1px solid black;
+	display: inline-block;
+	box-sizing: border-box;
 }
